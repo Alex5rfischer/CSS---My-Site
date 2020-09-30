@@ -5,13 +5,14 @@ body{
 }
 
 h1{
-  font-size: 562.5%;
+  color:#66BFBF;
+  font-size: 5.625rem;
   margin:50 auto 0 auto;
-  line-height: 2;
   font-family: 'Sacramento', cursive;
 }
 
 h2{
+  color:#66BFBF;
   margin-top: 0;
   font-weight: normal;
   font-size:2.5rem;
@@ -19,6 +20,7 @@ h2{
 
 }
 h3{
+  color:#11999E;
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -37,6 +39,13 @@ h3{
 
 }
 
+.skill-row{
+  width:50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
 .pro{
   text-decoration: underline;
 }
@@ -51,4 +60,16 @@ h3{
   position:absolute;
   left:300px;
   bottom:300px;
+}
+
+.code-img{
+  width:20%;
+  float:left;
+  margin-right: 30px;
+}
+
+.chilli-img{
+    width:20%;
+    float:right;
+    margin-left:30px;
 }
